@@ -16,10 +16,5 @@ pipeline {
                 echo "Package completed sucessfully"
             }
         }
-        stage("Deploy"){
-            steps{
-                echo "deploy completed sucessfully"
-            }
-        }
     }
 }
